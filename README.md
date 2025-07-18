@@ -2,16 +2,8 @@
 
 ## Project Overview
 
-This project aimed to develop a robust system for **job recommendation and matching**, building upon an initial phase of job classification. The primary goal was to provide users with job postings highly relevant to their profiles by leveraging advanced Natural Language Processing (NLP) and machine learning techniques.
+This project aimed to develop a robust system for **job recommendation and matching**, building upon an initial phase of job classification. The primary goal was to provide users with job postings highly relevant to their profiles by leveraging advanced Natural Language Processing (NLP) and machine learning techniques. The initial phase of this project focused on **classifying job postings into meaningful categories**.
 
-## Part 1: Job Classification (Foundation)
-
-The initial phase of this project focused on **classifying job postings into meaningful categories**. This involved:
-* **Data Acquisition & Preprocessing:** Cleaning and preparing a large dataset of job descriptions.
-* **Category Creation:** Utilizing **Sentence Embeddings** (with `SentenceTransformer`) followed by **Clustering (K-Means)** to group similar job descriptions and manually label these clusters into broader job categories (e.g., IT, Data Science, Marketing, Healthcare).
-* **Outcome:** A dataset of job postings enriched with a `Category` column, providing a foundational structure for the subsequent recommendation system.
-
-## Part 2: Job Recommendation & Matching System
 
 This phase was dedicated to building the core recommendation engine.
 
